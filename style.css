@@ -1,0 +1,135 @@
+@charset"utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.inner{
+    width: 1000px;
+    margin:auto;
+    position: relative;
+}
+
+    body{
+        width: 100%;
+        background-color: #f9f9f9;
+    }
+
+.map div.hidden {
+  display: none;
+}
+
+nav{
+    overflow: hidden;
+    text-decoration-color: black;
+}
+
+nav li{
+    float: left;
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: inherit;
+    border: none;
+    color: #fff;
+    border-radius: 0;
+    display: block;
+    padding: 15px;
+    transition: 0.5s;
+}
+
+#wallpaper{
+    overflow: hidden;
+    background: url(./images/pic.jpg);
+    background-size: cover;
+    height:700px;
+}
+#wallpaper h1{
+    text-align: center;
+    color:#fff;
+    padding-top: 200px
+}
+
+#container{
+    background-color: #FFFBEA;
+    height:600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#pictures{
+    padding: 90px 30px 90px 60px;
+    text-align: center;
+    width:30%;
+    float:left;
+    margin:auto auto auto 2%;
+}
+
+#compass{
+    padding: 90px 30px 90px 30px;
+    text-align: center;
+    float:right;
+    width:30%;
+    margin:auto 2% auto auto;
+}
+
+#flights{
+    padding: 90px 30px 90px 60px;
+    text-align: center;
+    position:relative;
+    left:0;
+    right:0;
+    margin:auto;
+}
+
+#map{
+    height:600px;
+    position:relative;
+    width: 100%;
+    overflow: hidden;
+    background-color: #FFFBEA;
+} 
+
+#map a img:hover {
+    transform: scale(1.5);
+    transition: 1.5s;
+}
+
+.mappy{
+    width: 1000px;
+    position: relative;
+    overflow: hidden;   
+}
+
+.na{
+    position: absolute;
+    top: 250px;
+    left: 180px;
+}
+
+.sa{
+    position: absolute;
+    top: 400px;
+    left: 260px;
+}
+
+.e{
+    position: absolute;
+    top: 200px;
+    left: 470px;
+}
+
+.a{
+    position: absolute;
+    top: 400px;
+    left: 520px;
+}
+
+.asia{
+    position: absolute;
+    top: 230px;
+    right: 200px;
+}
+
